@@ -7,7 +7,7 @@ def find_item_by_name_in_collection(name, collection)
   collection.find do |e|
   end 
     binding.pry
-end
+ end
 
 def consolidate_cart(cart)
   # Consult README for inputs and outputs
