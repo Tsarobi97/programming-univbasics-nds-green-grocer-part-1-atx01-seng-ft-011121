@@ -12,11 +12,10 @@ def find_item_by_name_in_collection(name, collection)
 
 def consolidate_cart(cart)
   reciept = cart 
-  binding.pry
   cart.each do |item_hash|
       counter = 0
   while counter < unconsolidated_cart.length do 
-  if cart[item_hash]
+  if cart[counter]
     counter + = 1
   else
     new_variable = cart[item_hash]
