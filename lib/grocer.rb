@@ -11,25 +11,17 @@ def find_item_by_name_in_collection(name, collection)
  end
 
 def consolidate_cart(cart)
-  counter = 0
   reciept = cart 
   binding.pry
-
-
-  # Consult README for inputs and outputs
-  #
-  # REMEMBER: This returns a new Array that represents the cart. Don't merely
-  # change `cart` (i.e. mutate) it. It's easier to return a new thing.
-  
+  cart.each do |item_hash|
+      counter = 0
   while counter < unconsolidated_cart.length
   if unconsolidated_cart[counter]
-    count + =1
+    count + = 1
   else
     [:k] => 1
-  end
-end
-
-#[:count => sum_of_all_items]
+      end
+   end
 end
 
 
