@@ -16,9 +16,9 @@ def consolidate_cart(cart)
   cart.each do |item_hash|
       counter = 0
   while counter < unconsolidated_cart.length
-  if unconsolidated_cart[counter]
-    count + = 1
-  #else
+  if cart[item_hash]
+    counter + = 1
+  else
     #[:k] => 1
       end
    end
