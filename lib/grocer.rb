@@ -21,7 +21,6 @@ def consolidate_cart(cart)
     new_variable = cart[item_hash]
       end
    end
-end
 
 
   
