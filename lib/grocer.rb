@@ -19,7 +19,7 @@ def consolidate_cart(cart)
   if cart[item_hash]
     counter + = 1
   else
-    #[:k] => 1
+    new_variable = cart[item_hash]
       end
    end
 end
