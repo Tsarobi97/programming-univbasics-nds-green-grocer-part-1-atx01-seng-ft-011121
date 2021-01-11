@@ -15,7 +15,7 @@ def consolidate_cart(cart)
   binding.pry
   cart.each do |item_hash|
       counter = 0
-  while counter < unconsolidated_cart.length
+  while counter < unconsolidated_cart.length do 
   if cart[item_hash]
     counter + = 1
   else
