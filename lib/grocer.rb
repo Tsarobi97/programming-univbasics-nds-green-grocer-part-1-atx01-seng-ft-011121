@@ -16,7 +16,7 @@ def consolidate_cart(cart)
       counter = 0
   while counter < unconsolidated_cart.length do 
   if cart[counter]
-    counter + = 1
+    counter += 1
   else
     new_variable = cart[item_hash]
       end
