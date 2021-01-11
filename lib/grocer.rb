@@ -18,8 +18,8 @@ def consolidate_cart(cart)
   while counter < unconsolidated_cart.length
   if unconsolidated_cart[counter]
     count + = 1
-  else
-    [:k] => 1
+  #else
+    #[:k] => 1
       end
    end
 end
