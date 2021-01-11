@@ -12,6 +12,10 @@ def find_item_by_name_in_collection(name, collection)
 
 def consolidate_cart(cart)
   counter = 0
+  reciept = cart 
+  binding.pry
+
+
   # Consult README for inputs and outputs
   #
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
